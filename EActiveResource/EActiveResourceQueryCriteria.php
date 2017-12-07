@@ -217,7 +217,8 @@ class EActiveResourceQueryCriteria extends CComponent
             $parameters=array($this->condition);
             
             if($this->offset>0)
-                array_push($parameters, $this->offsetKey.'='.$this->offset);
+                // array_push($parameters, $this->offsetKey.'='.$this->offset);
+                array_push($parameters, $this->offsetKey.'='.$this->offset / $this->limit);
             if($this->limit>0)
                 array_push($parameters, $this->limitKey.'='.$this->limit);
             if($this->order!=="")
