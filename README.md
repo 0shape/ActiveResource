@@ -1,3 +1,6 @@
+## Merged Details from Article 
+    (https://habrahabr.ru/post/216475/) 
+
 #EActiveResource for Yii
 
 ...is an extension for the Yii PHP framework allowing the user to create models that use RESTful services as persistent storage.
